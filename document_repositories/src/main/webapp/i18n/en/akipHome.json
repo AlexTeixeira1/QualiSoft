@@ -1,0 +1,21 @@
+{
+  "documentRepositoriesApp": {
+    "home": {
+      "title": "Welcome to AgileKip Process Automation!",
+      "subtitle": "A platform for process automation",
+      "logged": {
+        "message": "You are logged in as user \"{{username}}\"."
+      },
+      "question": "If you have any question on AgileKip Generator:",
+      "link": {
+        "homepage": "AgileKip Generator Community Edition homepage",
+        "stackoverflow": "AgileKip Generator on Stack Overflow",
+        "bugtracker": "AgileKip Generator bug tracker",
+        "chat": "AgileKip Generator public chat room",
+        "follow": "follow @agilekip on Twitter"
+      },
+      "like": "If you like AgileKip Generator, don't forget to give us a star on",
+      "github": "GitHub"
+    }
+  }
+}
