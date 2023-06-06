@@ -52,6 +52,7 @@
     "jwtSecretKey": "YjA2ZDczOTlkMmVkMDAyM2RjYjI0YTg4YzczMWM4MjYxNmM2YWEyZGUwZmRkZmJhMjc1ZmRlMjA2OGI0YmE1NWJmZWIwMGExZDI4MGFiMGMzZjFiNjI0YzFmYmI2M2YzNGUyMGVlNGE1MzFhYmVkOTBmNzUxYWFmZDZkODYzMzI=",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en"]
+    "languages": ["en"],
+    "entities": ["DocumentPublication"]
   }
 }
