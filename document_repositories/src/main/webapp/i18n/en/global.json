@@ -12,6 +12,7 @@
         "processInstance": "Process Instances",
         "taskInstance": "All Tasks",
         "myCandidateTasks": "My Tasks",
+        "documentPublication": "Document Publication",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

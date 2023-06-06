@@ -1,0 +1,22 @@
+{
+  "documentRepositoriesApp": {
+    "documentPublication": {
+      "home": {
+        "title": "Document Publications",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Document Publications found"
+      },
+      "detail": {
+        "title": "Document Publication"
+      },
+      "id": "ID",
+      "name": "Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "documentId": "Document Id",
+      "comment": "Comment",
+      "status": "Status",
+      "documentType": "Document Type"
+    }
+  }
+}

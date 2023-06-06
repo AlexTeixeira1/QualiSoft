@@ -1,0 +1,42 @@
+{
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "documentId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "comment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "documentType",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "domain",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": true,
+  "pagination": "no",
+  "name": "DocumentPublication",
+  "changelogDate": "20230606000001",
+  "skipFakeData": true
+}
