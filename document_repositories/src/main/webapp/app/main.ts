@@ -32,7 +32,15 @@ import TrackerService from './admin/tracker/tracker.service';
 import UserOAuth2Service from '@/entities/user/user.oauth2.service';
 /* tslint:disable */
 
+<<<<<<< Updated upstream
 import DocumentPublicationService from '@/entities/document-publication/document-publication.service';
+=======
+<<<<<<< Updated upstream
+=======
+import DocumentPublicationService from '@/entities/document-publication/document-publication.service';
+import DocumentPublicationProcessService from '@/entities/document-publication-process/document-publication-process.service';
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -98,7 +106,15 @@ new Vue({
 
     userOAuth2Service: () => new UserOAuth2Service(),
     translationService: () => translationService,
+<<<<<<< Updated upstream
     documentPublicationService: () => new DocumentPublicationService(),
+=======
+<<<<<<< Updated upstream
+=======
+    documentPublicationService: () => new DocumentPublicationService(),
+    documentPublicationProcessService: () => new DocumentPublicationProcessService(),
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
   },

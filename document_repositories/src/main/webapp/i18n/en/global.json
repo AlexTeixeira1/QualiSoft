@@ -12,7 +12,15 @@
         "processInstance": "Process Instances",
         "taskInstance": "All Tasks",
         "myCandidateTasks": "My Tasks",
+<<<<<<< Updated upstream
         "documentPublication": "Document Publication",
+=======
+<<<<<<< Updated upstream
+=======
+        "documentPublication": "Document Publication",
+        "documentPublicationProcess": "Document Publication Process",
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

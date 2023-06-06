@@ -1,0 +1,30 @@
+{
+  "documentRepositoriesApp": {
+    "documentPublicationProcess": {
+      "home": {
+        "title": "Document Publication Processes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Document Publication Process",
+        "createOrEditLabel": "Create or edit a Document Publication Process",
+        "notFound": "No Document Publication Processes found"
+      },
+      "created": "A new Document Publication Process is created with identifier {{ param }}",
+      "updated": "A Document Publication Process is updated with identifier {{ param }}",
+      "deleted": "A Document Publication Process is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Document Publication Process {{ id }}?"
+      },
+      "detail": {
+        "title": "Document Publication Process"
+      },
+      "id": "ID",
+      "name": "Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "documentId": "Document Id",
+      "comment": "Comment",
+      "status": "Status",
+      "documentType": "Document Type"
+    }
+  }
+}
