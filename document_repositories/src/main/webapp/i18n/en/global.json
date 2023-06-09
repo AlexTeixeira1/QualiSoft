@@ -13,6 +13,7 @@
         "taskInstance": "All Tasks",
         "myCandidateTasks": "My Tasks",
         "documentPublication": "Document Publication",
+        "documentPublicationProcess": "Document Publication Process",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
