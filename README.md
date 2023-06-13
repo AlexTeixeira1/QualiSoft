@@ -7,3 +7,6 @@ O objetivo de projeto visa implementar um Repositório de Documentos técnicos p
 - Felipe Vilela
 - Paulo Victor
 - Rodrigo Lucas
+
+### Mais informações podem ser encontradas na wiki do projeto
+https://github.com/AlexTeixeira1/QualiSoft/wiki
