@@ -1,0 +1,29 @@
+{
+  "documentRepositoriesApp": {
+    "taskPublishDocument": {
+      "home": {
+        "title": "Task Publish Documents",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Publish Document",
+        "createOrEditLabel": "Create or edit a Task Publish Document",
+        "notFound": "No Task Publish Documents found"
+      },
+      "created": "A new Task Publish Document is created with identifier {{ param }}",
+      "updated": "A Task Publish Document is updated with identifier {{ param }}",
+      "deleted": "A Task Publish Document is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Publish Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Publish Document"
+      },
+      "id": "ID",
+      "name": "Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "documentId": "Document Id",
+      "comment": "Comment",
+      "status": "Status"
+    }
+  }
+}
