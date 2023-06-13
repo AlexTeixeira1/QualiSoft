@@ -17,6 +17,7 @@
         "documentPublicationStartForm": "Document Publication Start Form",
         "taskCreateDocument": "Task Create Document",
         "taskReviewDocument": "Task Review Document",
+        "taskApproveDocument": "Task Approve Document",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

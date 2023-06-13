@@ -1,0 +1,29 @@
+{
+  "documentRepositoriesApp": {
+    "taskApproveDocument": {
+      "home": {
+        "title": "Task Approve Documents",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Approve Document",
+        "createOrEditLabel": "Create or edit a Task Approve Document",
+        "notFound": "No Task Approve Documents found"
+      },
+      "created": "A new Task Approve Document is created with identifier {{ param }}",
+      "updated": "A Task Approve Document is updated with identifier {{ param }}",
+      "deleted": "A Task Approve Document is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Approve Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Approve Document"
+      },
+      "id": "ID",
+      "name": "Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "documentId": "Document Id",
+      "comment": "Comment",
+      "status": "Status"
+    }
+  }
+}
