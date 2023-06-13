@@ -1,0 +1,29 @@
+{
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [],
+  "entityType": "start-form",
+  "processBpmnId": "DocumentPublicationProcess",
+  "processEntityName": "DocumentPublicationProcess",
+  "domainEntityName": "DocumentPublication",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "DocumentPublicationStartForm",
+  "changelogDate": "20230613000001",
+  "skipFakeData": true
+}

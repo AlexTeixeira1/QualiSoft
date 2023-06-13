@@ -10,6 +10,8 @@ const DocumentPublicationDetails = () => import('@/entities/document-publication
 const DocumentPublicationProcessDetails = () => import('@/entities/document-publication-process/document-publication-process-details.vue');
 // prettier-ignore
 const DocumentPublicationProcessList = () => import('@/entities/document-publication-process/document-publication-process-list.vue');
+// prettier-ignore
+const DocumentPublicationStartFormInit = () => import('@/entities/document-publication-process/document-publication-start-form-init.vue');
 // jhipster-needle-add-entity-to-router-import - JHipster will import entities to the router here
 
 export default [
@@ -35,6 +37,12 @@ export default [
     path: '/process-definition/DocumentPublicationProcess/instances',
     name: 'DocumentPublicationProcessList',
     component: DocumentPublicationProcessList,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/process-definition/DocumentPublicationProcess/init',
+    name: 'DocumentPublicationStartFormInit',
+    component: DocumentPublicationStartFormInit,
     meta: { authorities: [Authority.USER] },
   },
   // jhipster-needle-add-entity-to-router - JHipster will add entities to the router here

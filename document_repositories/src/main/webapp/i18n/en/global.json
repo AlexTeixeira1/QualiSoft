@@ -14,6 +14,7 @@
         "myCandidateTasks": "My Tasks",
         "documentPublication": "Document Publication",
         "documentPublicationProcess": "Document Publication Process",
+        "documentPublicationStartForm": "Document Publication Start Form",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

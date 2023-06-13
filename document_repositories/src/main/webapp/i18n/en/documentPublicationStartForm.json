@@ -1,0 +1,26 @@
+{
+  "documentRepositoriesApp": {
+    "documentPublicationStartForm": {
+      "home": {
+        "title": "Document Publication Start Forms",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Document Publication Start Form",
+        "createOrEditLabel": "Create or edit a Document Publication Start Form",
+        "notFound": "No Document Publication Start Forms found"
+      },
+      "created": "A new Document Publication Start Form is created with identifier {{ param }}",
+      "updated": "A Document Publication Start Form is updated with identifier {{ param }}",
+      "deleted": "A Document Publication Start Form is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Document Publication Start Form {{ id }}?"
+      },
+      "detail": {
+        "title": "Document Publication Start Form"
+      },
+      "id": "ID",
+      "name": "Name",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    }
+  }
+}
