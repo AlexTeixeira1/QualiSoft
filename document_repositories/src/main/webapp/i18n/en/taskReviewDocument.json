@@ -1,0 +1,28 @@
+{
+  "documentRepositoriesApp": {
+    "taskReviewDocument": {
+      "home": {
+        "title": "Task Review Documents",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Review Document",
+        "createOrEditLabel": "Create or edit a Task Review Document",
+        "notFound": "No Task Review Documents found"
+      },
+      "created": "A new Task Review Document is created with identifier {{ param }}",
+      "updated": "A Task Review Document is updated with identifier {{ param }}",
+      "deleted": "A Task Review Document is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Review Document {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Review Document"
+      },
+      "id": "ID",
+      "name": "Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "documentId": "Document Id",
+      "comment": "Comment"
+    }
+  }
+}

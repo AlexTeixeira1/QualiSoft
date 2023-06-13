@@ -16,6 +16,10 @@ const DocumentPublicationStartFormInit = () => import('@/entities/document-publi
 const DocumentPublicationProcess_TaskCreateDocumentDetails = () => import('@/entities/document-publication-process/task-create-document/task-create-document-details.vue');
 // prettier-ignore
 const DocumentPublicationProcess_TaskCreateDocumentExecute = () => import('@/entities/document-publication-process/task-create-document/task-create-document-execute.vue');
+// prettier-ignore
+const DocumentPublicationProcess_TaskReviewDocumentDetails = () => import('@/entities/document-publication-process/task-review-document/task-review-document-details.vue');
+// prettier-ignore
+const DocumentPublicationProcess_TaskReviewDocumentExecute = () => import('@/entities/document-publication-process/task-review-document/task-review-document-execute.vue');
 // jhipster-needle-add-entity-to-router-import - JHipster will import entities to the router here
 
 export default [
@@ -59,6 +63,18 @@ export default [
     path: '/process-definition/DocumentPublicationProcess/task/TaskCreateDocument/:taskInstanceId/execute',
     name: 'DocumentPublicationProcess_TaskCreateDocumentExecute',
     component: DocumentPublicationProcess_TaskCreateDocumentExecute,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/process-definition/DocumentPublicationProcess/task/TaskReviewDocument/:taskInstanceId/view',
+    name: 'DocumentPublicationProcess_TaskReviewDocumentDetails',
+    component: DocumentPublicationProcess_TaskReviewDocumentDetails,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/process-definition/DocumentPublicationProcess/task/TaskReviewDocument/:taskInstanceId/execute',
+    name: 'DocumentPublicationProcess_TaskReviewDocumentExecute',
+    component: DocumentPublicationProcess_TaskReviewDocumentExecute,
     meta: { authorities: [Authority.USER] },
   },
   // jhipster-needle-add-entity-to-router - JHipster will add entities to the router here
