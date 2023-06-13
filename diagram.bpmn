@@ -4,11 +4,11 @@
     <bpmn:startEvent id="StartEvent_0n1c6kh" name="Start Process">
       <bpmn:outgoing>SequenceFlow_1juxk4q</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:sequenceFlow id="SequenceFlow_1juxk4q" sourceRef="StartEvent_0n1c6kh" targetRef="Task_0f29ro7" />
-    <bpmn:sequenceFlow id="SequenceFlow_0g4fxw2" sourceRef="Task_0f29ro7" targetRef="Task_1j2l4cq" />
-    <bpmn:sequenceFlow id="SequenceFlow_1eq54kj" sourceRef="Task_1j2l4cq" targetRef="Task_07fygdr" />
-    <bpmn:sequenceFlow id="SequenceFlow_0l6xq4f" sourceRef="Task_07fygdr" targetRef="Task_1m0jp6w" />
-    <bpmn:sequenceFlow id="SequenceFlow_1lfjfl7" sourceRef="Task_1m0jp6w" targetRef="EndEvent_0nx6xks" />
+    <bpmn:sequenceFlow id="SequenceFlow_1juxk4q" sourceRef="StartEvent_0n1c6kh" targetRef="TaskCreateDocument" />
+    <bpmn:sequenceFlow id="SequenceFlow_0g4fxw2" sourceRef="TaskCreateDocument" targetRef="TaskReviewDocument" />
+    <bpmn:sequenceFlow id="SequenceFlow_1eq54kj" sourceRef="TaskReviewDocument" targetRef="TaskApproveDocument" />
+    <bpmn:sequenceFlow id="SequenceFlow_0l6xq4f" sourceRef="TaskApproveDocument" targetRef="TaskPublishDocument" />
+    <bpmn:sequenceFlow id="SequenceFlow_1lfjfl7" sourceRef="TaskPublishDocument" targetRef="EndEvent_0nx6xks" />
     <bpmn:userTask id="TaskCreateDocument" name="Create Document">
       <bpmn:incoming>SequenceFlow_1juxk4q</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0g4fxw2</bpmn:outgoing>
@@ -37,16 +37,16 @@
           <dc:Bounds x="117" y="140" width="67" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0uulaus_di" bpmnElement="Task_0f29ro7">
+      <bpmndi:BPMNShape id="Activity_0uulaus_di" bpmnElement="TaskCreateDocument">
         <dc:Bounds x="250" y="70" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1gy34v7_di" bpmnElement="Task_1j2l4cq">
+      <bpmndi:BPMNShape id="Activity_1gy34v7_di" bpmnElement="TaskReviewDocument">
         <dc:Bounds x="425" y="70" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_016x9c3_di" bpmnElement="Task_07fygdr">
+      <bpmndi:BPMNShape id="Activity_016x9c3_di" bpmnElement="TaskApproveDocument">
         <dc:Bounds x="600" y="70" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1tdx5le_di" bpmnElement="Task_1m0jp6w">
+      <bpmndi:BPMNShape id="Activity_1tdx5le_di" bpmnElement="TaskPublishDocument">
         <dc:Bounds x="775" y="70" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="EndEvent_0nx6xks_di" bpmnElement="EndEvent_0nx6xks">
