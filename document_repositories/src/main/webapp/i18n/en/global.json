@@ -15,6 +15,7 @@
         "documentPublication": "Document Publication",
         "documentPublicationProcess": "Document Publication Process",
         "documentPublicationStartForm": "Document Publication Start Form",
+        "taskCreateDocument": "Task Create Document",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
