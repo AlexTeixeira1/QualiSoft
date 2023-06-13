@@ -9,19 +9,19 @@
     <bpmn:sequenceFlow id="SequenceFlow_1eq54kj" sourceRef="Task_1j2l4cq" targetRef="Task_07fygdr" />
     <bpmn:sequenceFlow id="SequenceFlow_0l6xq4f" sourceRef="Task_07fygdr" targetRef="Task_1m0jp6w" />
     <bpmn:sequenceFlow id="SequenceFlow_1lfjfl7" sourceRef="Task_1m0jp6w" targetRef="EndEvent_0nx6xks" />
-    <bpmn:userTask id="Task_0f29ro7" name="Create Document">
+    <bpmn:userTask id="TaskCreateDocument" name="Create Document">
       <bpmn:incoming>SequenceFlow_1juxk4q</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0g4fxw2</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:userTask id="Task_1j2l4cq" name="Review Document">
+    <bpmn:userTask id="TaskReviewDocument" name="Review Document">
       <bpmn:incoming>SequenceFlow_0g4fxw2</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1eq54kj</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:userTask id="Task_07fygdr" name="Approve Document">
+    <bpmn:userTask id="TaskApproveDocument" name="Approve Document">
       <bpmn:incoming>SequenceFlow_1eq54kj</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0l6xq4f</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:userTask id="Task_1m0jp6w" name="Publish Document">
+    <bpmn:userTask id="TaskPublishDocument" name="Publish Document">
       <bpmn:incoming>SequenceFlow_0l6xq4f</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1lfjfl7</bpmn:outgoing>
     </bpmn:userTask>
