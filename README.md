@@ -1,12 +1,17 @@
 # Gerenciador de Documentos Técnicos
 O objetivo de projeto visa implementar um Repositório de Documentos técnicos para centralizar e gerenciar a criação de uma documentação técnica relacionada a projetos de software em uma organização. Assim servindo como um local centralizado para armazenar, controlar e compartilhar documentos técnicos, como manuais, especificações, diagramas, requisitos e outros artefatos importantes. O objetivo principal é fornecer aos membros da equipe uma forma sistematizada de criá-los com acesso fácil e rápido às informações necessárias para chegar à publicação.
 
+# Fluxo do Projeto
+![image](https://github.com/AlexTeixeira1/QualiSoft/assets/56642493/5fa35eb6-25df-44a7-b859-853621011db7)
+
+
 # Membros do Projeto
 - Alex Teixeira
 - Beatriz Rios
 - Felipe Vilela
 - Paulo Victor
 - Rodrigo Lucas
+
 
 # Utilização
 Esta aplicação foi desenvolvida utilizando o Agile Kip com JHipster. Antes de começar, verifique se você atende aos seguintes requisitos:
